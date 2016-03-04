@@ -193,8 +193,8 @@ p.copyright {
     width: 220px; height: 220px; /* <--  size of a single frame*/
     background-image: url("/img/ba-female-avatar-dance.png"); /* <-- url to spritesheet*/
     margin: 0 auto;    
-    -webkit-animation: dance 1s steps(20) infinite; 
-    -moz-animation: dance 1s steps(20) infinite;
-    -o-animation: dance 1s steps(20) infinite;
-    animation: dance 1s steps(20) infinite; /* <-- animation parameters, see below*/
+    -webkit-animation: dance 1.5s steps(20) infinite; 
+    -moz-animation: dance 1.5s steps(20) infinite;
+    -o-animation: dance 1.5s steps(20) infinite;
+    animation: dance 1.5s steps(20) infinite; /* <-- animation parameters, see below*/
 }
