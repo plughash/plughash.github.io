@@ -35,8 +35,8 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #3C3C3C;
+    background-image:url(data:image/svg+xml;base64,CiAgPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNDYnIGhlaWdodD0nNzMuNicgdmlld0JveD0nMCAwIDEwIDE2Jz4KICAgIDxnIGlkPSdjJz4KICAgICAgPHBhdGggZmlsbD0nIzJCMkIyQicgZD0nTTAgMGw1IDN2NWwtNSAtM3onLz4KICAJCTxwYXRoIGZpbGw9JyMyNzI3MjcnIGQ9J00xMCAwbC01IDN2NWw1IC0zJy8+CiAgCTwvZz4KICAJPHVzZSB4PSc1JyB5PSc4JyB4bGluazpocmVmPScjYycgLz4KICAJPHVzZSB4PSctNScgeT0nOCcgeGxpbms6aHJlZj0nI2MnIC8+CiAgPC9zdmc+CiAg);
 }
 
 .intro-message {
