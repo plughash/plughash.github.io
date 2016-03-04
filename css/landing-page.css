@@ -70,13 +70,13 @@ h6 {
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
+    ul.intro-getscript-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.intro-social-buttons > li:last-child {
+    ul.intro-getscript-buttons > li:last-child {
         margin-bottom: 0;
     }
 
@@ -85,7 +85,7 @@ h6 {
     }
 }
 
-.network-name {
+.button-hash {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
@@ -168,3 +168,33 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+@-webkit-keyframes dance {
+    from { background-position: 0px; }
+    to { background-position: -4400px; }  /* <-- width of spritesheet*/
+}
+
+@-moz-keyframes dance {
+    from { background-position: 0px; }
+    to { background-position: -4400px; } /* <-- width of spritesheet*/
+}
+
+@-o-keyframes dance {
+    from { background-position: 0px; }
+    to { background-position: -4400px; } /* <-- width of spritesheet*/
+}
+
+@keyframes dance {
+    from { background-position: 0px; }
+    to { background-position: -4400px; } /* <-- width of spritesheet*/
+}
+
+.img-avatar {
+    width: 220px; height: 220px; /* <--  size of a single frame*/
+    background-image: url("/path/to/capguy-dance.png"); /* <-- url to spritesheet*/
+    margin: 0 auto;    
+    -webkit-animation: dance 1s steps(20) infinite; 
+    -moz-animation: dance 1s steps(20) infinite;
+    -o-animation: dance 1s steps(20) infinite;
+    animation: dance 1s steps(20) infinite; /* <-- animation parameters, see below*/
+}​
