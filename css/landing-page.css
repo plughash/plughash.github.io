@@ -171,22 +171,22 @@ p.copyright {
 
 @keyframes dance {
     from {background-position: 0px;}
-    to {background-position: -4400px;}
+    to {background-position: 4400px;}
 }
 
 @-o-keyframes dance {
     from {background-position: 0px;}
-    to {background-position: -4400px;}
+    to {background-position: 4400px;}
 }
 
 @-webkit-keyframes dance {
     from {background-position: 0px;}
-    to {background-position: -4400px;}
+    to {background-position: 4400px;}
 }
 
 @-moz-keyframes dance {
     from {background-position: 0px;}
-    to {background-position: -4400px;}
+    to {background-position: 4400px;}
 }
 
 @keyframes dance-drag {
@@ -212,10 +212,10 @@ p.copyright {
 .avatar-BA, .avatar-Warrior {
     width: 220px; height: 220px;
     margin: 0 auto;    
-    -webkit-animation: dance 1.5s steps(20) infinite; 
-    -moz-animation: dance 1.5s steps(20) infinite;
-    -o-animation: dance 1.5s steps(20) infinite;
-    animation: dance 1.5s steps(20) infinite;
+    -webkit-animation: dance 2s steps(20) infinite; 
+    -moz-animation: dance 2s steps(20) infinite;
+    -o-animation: dance 2s steps(20) infinite;
+    animation: dance 2s steps(20) infinite;
 }
 
 .avatar-BA {
@@ -230,8 +230,8 @@ p.copyright {
     background-image: url("/img/dragon-blue-dance.png");
     width: 440px; height: 220px;
     margin: 0 auto;    
-    -webkit-animation: dance-drag 1.5s steps(20) infinite; 
-    -moz-animation: dance-drag 1.5s steps(20) infinite;
-    -o-animation: dance-drag 1.5s steps(20) infinite;
-    animation: dance-drag 1.5s steps(20) infinite;
+    -webkit-animation: dance-drag 2s steps(20) infinite; 
+    -moz-animation: dance-drag 2s steps(20) infinite;
+    -o-animation: dance-drag 2s steps(20) infinite;
+    animation: dance-drag 2s steps(20) infinite;
 }
