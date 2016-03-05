@@ -169,32 +169,39 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-@-webkit-keyframes dance {
-    from { background-position: 0px; }
-    to { background-position: -4400px; }  /* <-- width of spritesheet*/
+@keyframes dance, @-o-keyframes dance, @-webkit-keyframes dance, @-moz-keyframes dance {
+    from {background-position: 0px;}
+    to {background-position: -4400px;}
 }
 
-@-moz-keyframes dance {
-    from { background-position: 0px; }
-    to { background-position: -4400px; } /* <-- width of spritesheet*/
+@keyframes dance-drag, @-o-keyframes dance-drag, @-webkit-keyframes dance-drag, @-moz-keyframes dance-drag {
+    from {background-position: 0px;}
+    to {background-position: -8800px;}
 }
 
-@-o-keyframes dance {
-    from { background-position: 0px; }
-    to { background-position: -4400px; } /* <-- width of spritesheet*/
-}
-
-@keyframes dance {
-    from { background-position: 0px; }
-    to { background-position: -4400px; } /* <-- width of spritesheet*/
-}
-
-.img-avatar {
-    width: 220px; height: 220px; /* <--  size of a single frame*/
-    background-image: url("/img/ba-female-avatar-dance.png"); /* <-- url to spritesheet*/
+.avatar-BA, .avatar-Warrior {
+    width: 220px; height: 220px;
     margin: 0 auto;    
     -webkit-animation: dance 1.5s steps(20) infinite; 
     -moz-animation: dance 1.5s steps(20) infinite;
     -o-animation: dance 1.5s steps(20) infinite;
-    animation: dance 1.5s steps(20) infinite; /* <-- animation parameters, see below*/
+    animation: dance 1.5s steps(20) infinite;
+}
+
+.avatar-BA {
+    background-image: url("/img/ba-female-avatar-dance.png");
+}
+
+.avatar-Warrior {
+    background-image: url("/img/warrior-female-dance.png");
+}
+
+.avatar-Dragon {
+    background-image: url("/img/dragon-blue-dance.png");
+    width: 440px; height: 440px;
+    margin: 0 auto;    
+    -webkit-animation: dance-drag 1.5s steps(20) infinite; 
+    -moz-animation: dance-drag 1.5s steps(20) infinite;
+    -o-animation: dance-drag 1.5s steps(20) infinite;
+    animation: dance-drag 1.5s steps(20) infinite;
 }
