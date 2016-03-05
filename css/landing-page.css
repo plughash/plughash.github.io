@@ -170,23 +170,23 @@ p.copyright {
 }
 
 @keyframes dance {
-    from {background-position: 0px;}
-    to {background-position: 4400px;}
+    from {background-position: -4440px;}
+    to {background-position: 0px;}
 }
 
 @-o-keyframes dance {
-    from {background-position: 0px;}
-    to {background-position: 4400px;}
+    from {background-position: -4440px;}
+    to {background-position: 0px;}
 }
 
 @-webkit-keyframes dance {
-    from {background-position: 0px;}
-    to {background-position: 4400px;}
+    from {background-position: -4440px;}
+    to {background-position: 0px;}
 }
 
 @-moz-keyframes dance {
-    from {background-position: 0px;}
-    to {background-position: 4400px;}
+    from {background-position: -4440px;}
+    to {background-position: 0px;}
 }
 
 @keyframes dance-drag {
