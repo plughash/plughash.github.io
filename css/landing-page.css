@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.fa {
+    font-size: small !important;
+}
+
 .topnav {
     font-size: 14px; 
 }
