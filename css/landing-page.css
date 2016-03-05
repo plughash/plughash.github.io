@@ -100,6 +100,10 @@ h6 {
     padding: 5px 8px !important;
 }
 
+.container.about {
+    padding-top: 5%;
+}
+
 .about-button {
     text-transform: uppercase;
     font-size: 12px;
