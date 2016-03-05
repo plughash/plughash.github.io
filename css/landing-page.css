@@ -219,7 +219,7 @@ p.copyright {
 }
 
 .avatar-BA {
-    background-image: url("/img/ba-female-avatar-dance.png");
+    background-image: url("/img/ba-female-dance.png");
 }
 
 .avatar-Warrior {
@@ -228,7 +228,7 @@ p.copyright {
 
 .avatar-Dragon {
     background-image: url("/img/dragon-blue-dance.png");
-    width: 440px; height: 440px;
+    width: 440px; height: 220px;
     margin: 0 auto;    
     -webkit-animation: dance-drag 1.5s steps(20) infinite; 
     -moz-animation: dance-drag 1.5s steps(20) infinite;
