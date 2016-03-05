@@ -169,12 +169,42 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-@keyframes dance, @-o-keyframes dance, @-webkit-keyframes dance, @-moz-keyframes dance {
+@keyframes dance {
     from {background-position: 0px;}
     to {background-position: -4400px;}
 }
 
-@keyframes dance-drag, @-o-keyframes dance-drag, @-webkit-keyframes dance-drag, @-moz-keyframes dance-drag {
+@-o-keyframes dance {
+    from {background-position: 0px;}
+    to {background-position: -4400px;}
+}
+
+@-webkit-keyframes dance {
+    from {background-position: 0px;}
+    to {background-position: -4400px;}
+}
+
+@-moz-keyframes dance {
+    from {background-position: 0px;}
+    to {background-position: -4400px;}
+}
+
+@keyframes dance-drag {
+    from {background-position: 0px;}
+    to {background-position: -8800px;}
+}
+
+@-o-keyframes dance-drag {
+    from {background-position: 0px;}
+    to {background-position: -8800px;}
+}
+
+@-webkit-keyframes dance-drag {
+    from {background-position: 0px;}
+    to {background-position: -8800px;}
+}
+
+@-moz-keyframes dance-drag {
     from {background-position: 0px;}
     to {background-position: -8800px;}
 }
