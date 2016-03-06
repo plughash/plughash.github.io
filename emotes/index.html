@@ -124,20 +124,20 @@
     xmlhttp.send();
     function createTable(emotes) {
         var cont=0
-            max = 5,
+            max = 4,
             html = '';
         html += (!html ? '' : '<br/><br/>') + '\
                 <table class="table table-striped table-hover table-condensed table-bordered table-responsive">\
                 <tbody>';
                 
-        for (var j in emotes.plughash){
+        for (var i in emotes.plughash){
             if (!cont)
                 html += '<tr>';
             html += '<td>\
                         <div class="emotes" align="center">\
-                            <img src="' + emotes.plughash[j].url + '">\
+                            <img src="' + emotes.plughash[i].url + '">\
                             <br/>\
-                            <span>:' + j + ':</span>\
+                            <span>:' + i + ':</span>\
                         </div>\
                     </td>'
             cont++;
