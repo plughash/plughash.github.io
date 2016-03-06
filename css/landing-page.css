@@ -13,7 +13,7 @@ html {
 body,
 h1,
 h2,
-h3,
+h3,od
 h4,
 h5,
 h6 {
@@ -141,7 +141,7 @@ h6 {
 }
 
 #tables .table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #171717 !important;
+    background-color: #1D1D1D !important;
 }
 
 .about-button {
