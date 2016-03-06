@@ -126,33 +126,30 @@
         var cont=0
             max = 5,
             html = '';
-        for (var i in emotes){
-            html += (!html ? '' : '<br/><br/>') + '\
-                    <h2>' + i + '</h2>\
-                    <table class="table table-striped table-hover table-condensed table-bordered table-responsive">\
-                    <tbody>';
-                    
-            for (var j in emotes[i]){
-                if (!cont)
-                    html += '<tr>';
-                html += '<td>\
-                            <div class="emotes" align="center">\
-                                <img src="' + emotes[i][j].url + '">\
-                                <br/>\
-                                <span>:' + j + ':</span>\
-                            </div>\
-                        </td>'
-                cont++;
+        html += (!html ? '' : '<br/><br/>') + '\
+                <table class="table table-striped table-hover table-condensed table-bordered table-responsive">\
+                <tbody>';
                 
-                if ( cont==max ){
-                    html += '</tr>';
-                    cont=0;
-                }
-            }           
-            html += '</tbody>\
-                    </table>';
-            cont = 0;
-        }
+        for (var j in emotes.plughash){
+            if (!cont)
+                html += '<tr>';
+            html += '<td>\
+                        <div class="emotes" align="center">\
+                            <img src="' + emotes.plughash[j].url + '">\
+                            <br/>\
+                            <span>:' + j + ':</span>\
+                        </div>\
+                    </td>'
+            cont++;
+            
+            if ( cont==max ){
+                html += '</tr>';
+                cont=0;
+            }
+        }           
+        html += '</tbody>\
+                </table>';
+        cont = 0;
         var table = document.getElementById('tables');
         if (!table)
             return;
