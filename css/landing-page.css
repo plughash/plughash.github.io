@@ -294,3 +294,11 @@ p.copyright {
     -o-animation: dance-drag 2s steps(20) infinite;
     animation: dance-drag 2s steps(20) infinite;
 }
+.logo-large {
+    vertical-align: middle;
+    height: 250px;
+    width: 690px;
+    background-image: url("/img/logo-nobg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
